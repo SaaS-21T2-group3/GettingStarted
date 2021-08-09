@@ -9,6 +9,8 @@ We need to install the following software in the following steps:
 - Run the Backend repository
 - Install Front-end repository
 
+## Please Note:
+Markers must access the 'Marker' Branch of the backend and front end repository. This branch will be forked by 9AM on the 9th of August, 2021.
 
 # Gihub Desktop
 Go to the following [link](https://desktop.github.com/) to download github desktop for your system. This will be useful to pull the marking branch of the repositories.
