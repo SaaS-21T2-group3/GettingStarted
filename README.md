@@ -50,7 +50,11 @@ To install Python 3.7.4, follow the following commands:
 - Choose the OS that you have and install the Python 3.7 version of python
 - Don't forget the set the path while installing python!
 - to validate that python is working perfectly on the system, execute the following command: ```python --version```
-
+- to install nltk and it's stopwords corpus, execute the following commands
+```
+pip install nltk
+python -m nltk.downloader stopwords
+```
 
 Once the database has been confirmed to be found working, navigate to the backend repository that you have cloned. Execute the following command on CommandPrompt / terminal to install all the necessary requirements.
 ```
