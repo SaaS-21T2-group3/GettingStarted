@@ -32,7 +32,7 @@ postgres=# create database comp9323;
 
 Once done, pull the marking branch of the Backend repository via Github Desktop. Inside it, you shall find a folder called db and more specifically a file called saas_v9.sql. To install the database dump, execute the following command on Command Prompt/ terminal.
 ```
-psql -U postgres -d comp9323 -f saas_v9.sql
+psql -U postgres -d comp9323 -f final_database.sql
 ```
 and when prompted, put your password.
 
