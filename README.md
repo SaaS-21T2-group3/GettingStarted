@@ -1,4 +1,14 @@
-# GettingStarted
+# Getting Started
+We need to install the following software in the following steps:
+- Github Desktop
+- Postgres Database
+	- Postgres Database
+	- Software Backend 
+- Install python 3.7.4
+- Install Backend repository requirements
+- Run the Backend repository
+- Install Front-end repository
+
 
 # Gihub Desktop
 Go to the following [link](https://desktop.github.com/) to download github desktop for your system. This will be useful to pull the marking branch of the repositories.
@@ -33,7 +43,19 @@ comp9323=# \d
 ```
 and running the SQL commands on it. For the purposes of marking, please don't modify the schema or modify the data.
 
-Once the database has been confirmed to be found working, navigate to the backend repository that you have cloned. Execute the following command on CommandPrompt / terminal to start the system.
+To install Python 3.7.4, follow the following commands:
+- Go to the following [link](https://docs.conda.io/en/latest/miniconda.html)
+- Choose the OS that you have and install the Python 3.7 version of python
+- Don't forget the set the path while installing python!
+- to validate that python is working perfectly on the system, execute the following command: ```python --version```
+
+
+Once the database has been confirmed to be found working, navigate to the backend repository that you have cloned. Execute the following command on CommandPrompt / terminal to install all the necessary requirements.
+```
+pip install -r requirements.txt
+```
+
+Execute the following command on CommandPrompt / terminal to start the system.
 ```
 python -m swagger_server
 ```
