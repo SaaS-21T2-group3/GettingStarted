@@ -1,13 +1,13 @@
-## GettingStarted
+# GettingStarted
 
-## Database
+# Database
 
-# Postgres Installation
+## Postgres Installation
 
-# Database Loading
-
-
-## Installing Backend
+## Database Loading
 
 
-## Installing Front-end
+# Installing Backend
+
+
+# Installing Front-end
