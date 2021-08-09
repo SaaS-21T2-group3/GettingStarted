@@ -84,12 +84,14 @@ AttributeError: 'NoneType' object has no attribute 'getconn'
 
 # Setting up Front-end
 
-Clone the mcube repository: 
-
 ## Pre Req: 
-Install NodeJS, Install NPM, Install Yarn.
+Install NodeJS, Install NPM, Install Yarn, install git
+
+Clone the mcube repository: https://github.com/SaaS-21T2-group3/mcube.git
+Checkout the branch **marking**: ```git checkout marking```
 
 ## Installing the required packages: 
  1. go to the cloned repository: run ```yarn install``` 
+
 ## Starting the front end webapp:
  2. go to the cloned repository: run ```yarn start``` 
