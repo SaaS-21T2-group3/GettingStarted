@@ -68,7 +68,7 @@ Connection pool created successfully
  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
 ```
 
-##### Common Error
+#### Common Known Error
 In case of obtaining the following error after executing the python -m swagger_server command, we suggest checking that the postgres server is up, that the credentials are working (as defined above). In case of persistent issues, reach out to [Kamal](mailto:r.revathi_sridhar_kamal@student.unsw.edu.au) or any team member over mail or MS-Teams chat.
 ```
 AttributeError: 'NoneType' object has no attribute 'getconn'
