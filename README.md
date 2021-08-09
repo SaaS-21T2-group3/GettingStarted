@@ -85,7 +85,7 @@ AttributeError: 'NoneType' object has no attribute 'getconn'
 # Setting up Front-end
 
 ## Pre Req: 
-Install NodeJS, Install NPM, Install Yarn, install git
+Install NodeJS(v14.17.1), Install NPM, Install Yarn, install git
 
 Clone the mcube repository: https://github.com/SaaS-21T2-group3/mcube.git
 
