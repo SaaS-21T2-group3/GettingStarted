@@ -33,4 +33,21 @@ comp9323=# \d
 ```
 and running the SQL commands on it. For the purposes of marking, please don't modify the schema or modify the data.
 
+Once the database has been confirmed to be found working, navigate to the backend repository that you have cloned. Execute the following command on CommandPrompt / terminal to start the system.
+```
+python -m swagger_server
+```
+
+Once the following output is shown on the terminal, you can open the swagger UI on any [web browser](http://localhost:8080/v1/ui/).
+```
+Connection pool created successfully
+ * Debugger is active!
+ * Debugger PIN: 280-682-446
+ * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+```
+
+
+
+
+
 # Installing Front-end
