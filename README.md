@@ -8,6 +8,7 @@ Go to the following [link](https://desktop.github.com/) to download github deskt
 We have utilized Postgres as our database technology of choice, and to install that on the system, go to the following [link](https://www.postgresql.org/download/) and follow their advice. We require setting up database credentials as:
 - username: comp9323
 - password: 0
+
 If the postgres database has already been set onn your system, we would suggest changing it to '0'.
 
 Once the postgres PATH has been set on your system, validate the installation by running the following on Command Prompt/ terminal:
